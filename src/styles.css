@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Navbar {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: navy;
+  color: white;
+}
+.Navbar > div {
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 5px;
+  background-color: navy;
+  color: white;
+}
+
+.Navbar > div > button {
+  background-color: navy;
+  color: white;
+}
